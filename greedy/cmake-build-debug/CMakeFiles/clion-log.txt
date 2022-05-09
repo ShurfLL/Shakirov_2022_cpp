@@ -1,0 +1,4 @@
+/home/timur/.local/share/JetBrains/Toolbox/apps/CLion/ch0/221.5080.224/bin/cmake/linux/bin/cmake -DCMAKE_C_COMPILER=/usr/bin/gcc -DCMAKE_CXX_COMPILER=/usr/bin/g++ -S "/home/timur/git projects/cpp/greedy" -B "/home/timur/git projects/cpp/greedy/cmake-build-debug"
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/timur/git projects/cpp/greedy/cmake-build-debug
