@@ -1,8 +1,8 @@
 file(REMOVE_RECURSE
   "14"
   "14.pdb"
-  "CMakeFiles/14.dir/main.cpp.o"
-  "CMakeFiles/14.dir/main.cpp.o.d"
+  "CMakeFiles/14.dir/AVL.cpp.o"
+  "CMakeFiles/14.dir/AVL.cpp.o.d"
 )
 
 # Per-language clean rules from dependency scanning.

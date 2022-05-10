@@ -1,6 +1,6 @@
 CMakeFiles/mystl.dir/main.cpp.o: \
- /home/timur/git\ projects/cpp/mystl/main.cpp /usr/include/stdc-predef.h \
- /usr/include/c++/11.2.0/iostream \
+ /home/timur/Shakirov_2022_cpp/DoubleList/main.cpp \
+ /usr/include/stdc-predef.h /usr/include/c++/11.2.0/iostream \
  /usr/include/c++/11.2.0/x86_64-pc-linux-gnu/bits/c++config.h \
  /usr/include/c++/11.2.0/x86_64-pc-linux-gnu/bits/os_defines.h \
  /usr/include/features.h /usr/include/features-time64.h \

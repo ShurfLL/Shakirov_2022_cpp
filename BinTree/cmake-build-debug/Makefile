@@ -57,10 +57,10 @@ RM = /home/timur/.local/share/JetBrains/Toolbox/apps/CLion/ch0/221.5080.224/bin/
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "/home/timur/git projects/cpp/14"
+CMAKE_SOURCE_DIR = /home/timur/Shakirov_2022_cpp/BinTree
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "/home/timur/git projects/cpp/14/cmake-build-debug"
+CMAKE_BINARY_DIR = /home/timur/Shakirov_2022_cpp/BinTree/cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -87,9 +87,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "/home/timur/git projects/cpp/14/cmake-build-debug/CMakeFiles" "/home/timur/git projects/cpp/14/cmake-build-debug//CMakeFiles/progress.marks"
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/timur/Shakirov_2022_cpp/BinTree/cmake-build-debug/CMakeFiles /home/timur/Shakirov_2022_cpp/BinTree/cmake-build-debug//CMakeFiles/progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start "/home/timur/git projects/cpp/14/cmake-build-debug/CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/timur/Shakirov_2022_cpp/BinTree/cmake-build-debug/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -129,29 +129,29 @@ depend:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/14.dir/build.make CMakeFiles/14.dir/build
 .PHONY : 14/fast
 
-main.o: main.cpp.o
-.PHONY : main.o
+AVL.o: AVL.cpp.o
+.PHONY : AVL.o
 
 # target to build an object file
-main.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/14.dir/build.make CMakeFiles/14.dir/main.cpp.o
-.PHONY : main.cpp.o
+AVL.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/14.dir/build.make CMakeFiles/14.dir/AVL.cpp.o
+.PHONY : AVL.cpp.o
 
-main.i: main.cpp.i
-.PHONY : main.i
+AVL.i: AVL.cpp.i
+.PHONY : AVL.i
 
 # target to preprocess a source file
-main.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/14.dir/build.make CMakeFiles/14.dir/main.cpp.i
-.PHONY : main.cpp.i
+AVL.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/14.dir/build.make CMakeFiles/14.dir/AVL.cpp.i
+.PHONY : AVL.cpp.i
 
-main.s: main.cpp.s
-.PHONY : main.s
+AVL.s: AVL.cpp.s
+.PHONY : AVL.s
 
 # target to generate assembly for a file
-main.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/14.dir/build.make CMakeFiles/14.dir/main.cpp.s
-.PHONY : main.cpp.s
+AVL.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/14.dir/build.make CMakeFiles/14.dir/AVL.cpp.s
+.PHONY : AVL.cpp.s
 
 # Help Target
 help:
@@ -162,9 +162,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... 14"
-	@echo "... main.o"
-	@echo "... main.i"
-	@echo "... main.s"
+	@echo "... AVL.o"
+	@echo "... AVL.i"
+	@echo "... AVL.s"
 .PHONY : help
 
 

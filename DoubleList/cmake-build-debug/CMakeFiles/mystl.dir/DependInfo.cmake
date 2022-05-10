@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/timur/git projects/cpp/mystl/main.cpp" "CMakeFiles/mystl.dir/main.cpp.o" "gcc" "CMakeFiles/mystl.dir/main.cpp.o.d"
+  "/home/timur/Shakirov_2022_cpp/DoubleList/main.cpp" "CMakeFiles/mystl.dir/main.cpp.o" "gcc" "CMakeFiles/mystl.dir/main.cpp.o.d"
   )
 
 # Targets to which this target links.

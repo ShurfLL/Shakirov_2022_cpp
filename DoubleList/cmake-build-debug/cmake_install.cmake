@@ -1,4 +1,4 @@
-# Install script for directory: /home/timur/git projects/cpp/mystl
+# Install script for directory: /home/timur/Shakirov_2022_cpp/DoubleList
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -50,5 +50,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/timur/git projects/cpp/mystl/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/timur/Shakirov_2022_cpp/DoubleList/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

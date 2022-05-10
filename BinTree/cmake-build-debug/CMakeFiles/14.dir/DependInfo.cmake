@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/timur/git projects/cpp/14/main.cpp" "CMakeFiles/14.dir/main.cpp.o" "gcc" "CMakeFiles/14.dir/main.cpp.o.d"
+  "/home/timur/Shakirov_2022_cpp/BinTree/AVL.cpp" "CMakeFiles/14.dir/AVL.cpp.o" "gcc" "CMakeFiles/14.dir/AVL.cpp.o.d"
   )
 
 # Targets to which this target links.
