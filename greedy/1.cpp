@@ -13,11 +13,11 @@ int main() {
 //    for (int i = 0; i < N; ++i) {
 //        std::cout << user_size[i];
 //    }
-    for (int i = 0; S > 0; i++) { //пока можем, заполняем отсортированными по размеру данными.
+    for (int i = 0; S - user_size[i] >= 0 and i < N; i++) { //пока можем, заполняем отсортированными по размеру данными.
         S -= user_size[i];
         answer++;
     }
-    std::cout << answer - 1;
+    std::cout << answer;
     delete []user_size;
     return 0;
 }
